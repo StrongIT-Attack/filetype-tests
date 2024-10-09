@@ -1,0 +1,8 @@
+<job id="IncludeExample">
+	<script language="VBScript">
+		Dim objShell
+			Set WshShell = CreateObject("WScript.Shell")
+			MsgBox "Minimalbenutzer koennen per default VBS-Code in .vbs Files per .Windows Script Host (wscript.exe) ausfuehren"
+		Set objShell = Nothing
+	</script>
+</job>

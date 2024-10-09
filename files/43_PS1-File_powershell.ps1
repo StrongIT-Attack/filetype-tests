@@ -1,0 +1,1 @@
+Write-Output 'Hi, this is a PowerShell execution test.'

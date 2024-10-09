@@ -1,0 +1,32 @@
+1 EXAMPLE Demonstration program, mostly used for GILDAS tests
+        EXAMPLE
+
+    This is a sample program doing nothing, but used to test GILDAS...
+
+2 A$
+        TASK\REAL "A value between 0 and 1" A$
+
+    A real value between 0 and 1.
+
+2 CHAIN$
+        TASK\CHARACTER "A random text string" CHAIN$
+
+    A text to be sent to somebody.
+
+2 ARRAY$
+        TASK\REAL "4 arbitrary values" ARRAY$[4]
+
+    A real array of dimension 4.  Enter all values, even though they are not
+    used.
+
+2 FILE$
+        TASK\FILE "A valid file name" FILE$
+
+    This string must be a valid file name.
+
+2 OLD$
+        TASK\FILE /OLD "An existing file name" OLD$
+
+    An existing file name. Appropriate checks may be applied ?
+
+1 ENDOFHELP
